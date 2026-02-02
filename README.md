@@ -172,6 +172,12 @@ See **`docs/example-response.json`** for a full sample. Summary:
 
 Models are loaded on first request and reused. No custom training required; suitable for resume-ready and interview discussions.
 
+## Output
+<img width="1128" height="1148" alt="Screenshot 2026-02-01 005528" src="https://github.com/user-attachments/assets/020723c0-ffc6-4c80-80e3-406544ad181b" />
+<img width="1159" height="1170" alt="Screenshot 2026-02-01 005845" src="https://github.com/user-attachments/assets/94bd5e5e-73e1-4fdb-b38f-4753ecdd2ed9" />
+<img width="1150" height="1080" alt="Screenshot 2026-02-01 005511" src="https://github.com/user-attachments/assets/bc6244c3-9b74-42c7-9f43-c49433b6dfe4" />
+
+
 ## License
 
 MIT.
