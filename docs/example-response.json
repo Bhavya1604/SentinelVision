@@ -1,0 +1,14 @@
+{
+  "verdict": "SAFE",
+  "verdict_reason": "No categories exceeded review threshold.",
+  "categories": [
+    { "category": "nsfw", "score": 0.1203, "label": "NSFW" },
+    { "category": "violence", "score": 0.0821, "label": "Violence" },
+    { "category": "sexual_content", "score": 0.0956, "label": "Sexual content" },
+    { "category": "hate_symbols", "score": 0.0412, "label": "Hate symbols" },
+    { "category": "drugs", "score": 0.0634, "label": "Drugs" },
+    { "category": "self_harm", "score": 0.0289, "label": "Self-harm" }
+  ],
+  "description": "a dog sitting on a couch in a living room",
+  "image_id": null
+}

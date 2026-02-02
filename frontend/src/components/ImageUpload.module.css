@@ -1,0 +1,61 @@
+.zone {
+  --border-default: 2px dashed var(--border);
+  --border-drag: 2px dashed var(--accent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 200px;
+  padding: 2rem;
+  background: var(--surface);
+  border: var(--border-default);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.zone:hover:not(.disabled) {
+  background: var(--surface-hover);
+  border-color: var(--text-muted);
+}
+
+.zone.drag {
+  border: var(--border-drag);
+  background: rgba(59, 130, 246, 0.08);
+}
+
+.zone.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.icon {
+  font-size: 2rem;
+  color: var(--text-muted);
+  line-height: 1;
+}
+
+.text {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.hint {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.error {
+  margin: 0.5rem 0 0;
+  font-size: 0.875rem;
+  color: var(--block);
+}
